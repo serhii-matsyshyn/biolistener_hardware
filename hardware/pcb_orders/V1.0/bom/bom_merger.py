@@ -17,7 +17,7 @@ def merge_bom_files(bom_files, output_file):
     combined_df = pd.concat(all_dataframes, ignore_index=True)
 
     # Convert 'Quantity' to numeric in case it's read as a string
-    combined_df['Quantity'] = pd.to_numeric(combined_df['Quantity'], errors='coerce')
+    combined_df['Quantity'] = pd.to_numeric(combined_df['Quantity'], errors='raise')
 
     # Group by columns that must match exactly and sum the 'Quantity'
     grouped_df = combined_df.groupby(
