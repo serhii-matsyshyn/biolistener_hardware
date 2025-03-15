@@ -2,7 +2,7 @@
 
 # BioListener Hardware
 
-This repository contains all the necessary files related to the **BioListener project** hardware design, including **PCB source files**, **schematic files**, **fabrication files**, **BOM files**, and  **interactive BOM files**. The hardware designs are created in [EasyEDA](https://easyeda.com/), ensuring easy access and modification for further development.
+This repository contains all the necessary files related to the **BioListener project** hardware design, including **PCB source files**, **schematic files**, **PCB layer visuals**, **fabrication files**, **BOM files**, and  **interactive BOM files**. The hardware designs are created in [EasyEDA](https://easyeda.com/), ensuring easy access and modification for further development.
 
 ## Evaluated Boards
 The following boards are evaluated and tested as part of the BioListener project:
@@ -11,10 +11,18 @@ The following boards are evaluated and tested as part of the BioListener project
 - **ADC ADS131M08** (Texas Instruments)
 
 ## Included PCBs
-- [**BioListener ADC AD7771-based Board v1.0**](hardware/pcb/AD7771_V1.0) - 4 layer PCB
-- [**BioListener ADC ADS131M08-based Board v1.0**](hardware/pcb/ADS131M08_V1.0) - 4 layer PCB
+### V1.0
+Initial version of the BioListener boards.
+- [**BioListener ADC AD7771-based Board v1.0**](hardware/pcb/V1.0/AD7771_V1.0) - 4 layer PCB
+- [**BioListener ADC ADS131M08-based Board v1.0**](hardware/pcb/V1.0/ADS131M08_V1.0) - 4 layer PCB
 
-See shematic in the PCBs folders as PDF documents.
+### V1.1
+Updated version of the BioListener boards. Changes: added voltage supervisor, minor improvements.
+- [**BioListener ADC AD7771-based Board v1.1**](hardware/pcb/V1.1/AD7771_V1.1) - 4 layer PCB
+- [**BioListener ADC ADS131M08-based Board v1.1**](hardware/pcb/V1.1/ADS131M08_V1.1) - 4 layer PCB
+
+
+See schematic and PCB layer visuals in the PCBs folders as PDF documents.
 
 ## Included PCB Drafts
 - **BioListener Stimulation Board v1.0** (Draft) - 4 layer PCB
